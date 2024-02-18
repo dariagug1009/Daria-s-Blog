@@ -1,0 +1,103 @@
+.menu {
+    margin-left: 100px;
+    margin-top: 20px;
+    color:blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 200;
+}
+.menu:hover {
+    color:blue;
+}
+
+.title {
+    margin-left: 350px;
+    width: 800px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size:  45px;
+    margin-top: 100px;
+    display:block;
+}
+
+.under_title {
+    color:darkcyan;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva' Verdana, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.under_title_first {
+    color: darkcyan;
+    margin-left: 350px;
+    display: inline-block;
+}
+
+.image {
+    width: 1000px;
+    display:block;
+    margin: 0 auto;
+}
+
+.descript {
+    width: 1000px;
+    display: block;
+    margin: 50px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva' , Verdana, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+.table {
+    display: block;
+    margin: 50px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+}
+
+.subscribe {
+    padding: 10px;
+    background-color: aquamarine;
+}
+.subscribe input {
+    width: 200px ;
+    padding: 5px;
+}
+.subscribe button {
+    background-color: rgb(185, 128, 255);
+    border: none;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+}
+.reviews {
+   margin-top: 50px;
+   border: 1px solid violet;
+   padding: 20px; 
+}
+
+.rating {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.star {
+    color: gold;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid greenyellow;
+}
